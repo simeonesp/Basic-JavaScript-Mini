@@ -1,17 +1,17 @@
-const logger = => {
+const logger =() => {
  let message = 'hi';
   console.log(message);
 };
 
-const looper = => {
+const looper =() => {
   let message = 'I love JS!';
   for (let i = 0; i < 10; i++) {
     console.log(message);
   }
 };
 
-const greet = =>(name) {
- let greeting = `Hello`{name}!
+const greet = (name) => {
+ let greeting = `Hello{name}!`
   console.log(greeting);
 };
 
